@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Lato:wght@100&family=Nunito&family=Open+Sans:wght@700&family=Poppins:ital,wght@0,600;1,600&family=Raleway:wght@600&family=Saira&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+    color: #fff;
+}
+
+body{
+    background-color: #333333;
+}
+
+.container{
+    width: 100%;
+    max-width: 1536px;
+    margin: 0 auto;
+}
+
+.main1{
+    width: 1519px;
+    height: 745px;
+    background-image: url(Images/Fon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nav{
+    margin: 0 auto;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav a{
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 51px 0;
+    text-transform: uppercase;
+}
+
+.nav a:hover{
+    color: gold;
+    text-decoration: underline;
+    transition: 0.1s;
+}
+
+.nav .phone-number{
+    text-decoration: underline gold;
+}
+
+.menu{
+    width: 120px;
+    height: 745px;
+    margin-top: -602px;
+    background-color: #333333BF;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: column;
+}
+
+
+.menu a{
+    width: 300px;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    transform: rotate(-90deg);
+    display: flex;
+    word-spacing: 8px;
+    margin-top: 200px;
+    text-transform: uppercase;
+}
+
+.menu i{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+}
+
+.menu i:hover{
+    color: gold;
+}
+
+.icons .fa-instagram{
+    color: gold;
+    font-size: 30px;
+}
+
+.icons .fa-instagram:hover{
+    color: #fff;
+}
+
+.main2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    width: 530px;
+    margin-right: 50px;
+}
+
+.content h1{
+    font-size: 64px;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+
+.content p{
+    font-size:16px ;
+    padding-bottom: 50px;
+}
+
+.picture img{
+    width: 270px;
+    height: 470px;
+}
+
+.content button{
+    width: 160px;
+    height: 50px;
+    background: #D1A954;
+    border: none;
+    font-size: 20px;
+}
+
+.content button:hover{
+    background-color: #fff;
+    color: gold;
+    transition: 0.3s;
+    box-shadow: 1px -1px 8px 3px #999;
+}
+
+h2{
+    text-align: center;
+    font-size: 48px;
+    margin: 100px 0;
+}
+
+strong{
+    color: gold;
+}
+
+.main3{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+h3{
+    font-size: 21px;
+    padding-bottom: 20px;
+}
+
+.text{
+    width: 450px;
+}
+
+.text p{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.image{
+    width: 250px;
+}
+
+.image p{
+    padding: 15px 0;
+}
+
+.rasm{
+    width: 350px;
+}
+
+.main4{
+    width:1360;
+    margin: 100px auto;
+    display: flex;
+    justify-content:stretch;
+    align-items: center;
+}
+
+h4{
+    padding: 25px 25px;
+}
+
+.list1{
+    width: 380px;
+    height: 475px;
+    background-image: url(Images/Moskva.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.list2{
+    width: 380px;
+    height: 475px;
+    background-image: url(Images/Italy.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list3{
+    width: 380px;
+    height: 475px;
+    background-image: url(Images/Lamp.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.list4{
+    width: 380px;
+    height: 475px;
+    background-image: url(Images/Fountain.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main5{
+    width: 1100px;
+    height: 530px;
+    margin: 0 auto;
+    background-image: url(Images/Museum.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.son img{
+    margin-right: 150px;
+}
+
+.content2 img{
+    margin: 0 15px;
+}
+
+.content2 p{
+    width: 420px;
+    font-size: 36px;
+}
+
+.main6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1300px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.main6 img{
+    padding:40px 50px ;
+}
